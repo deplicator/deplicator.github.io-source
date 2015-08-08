@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>{{site.title}}</title>
+    <link rel="stylesheet" type="text/css" href="{{site.url}}/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="{{site.url}}/styles/jqcloud.css">
+    <link rel="stylesheet" type="text/css" href="{{site.url}}/styles/ionicons.min.css">
+    <script src="{{site.url}}/scripts/analytics.js"></script>
+    <script src="{{site.url}}/scripts/jquery-2.1.4.min.js"></script>
+    <script src="{{site.url}}/scripts/jquery-jqcloud.js"></script>
+    <script src="{{site.url}}/scripts/bootstrap.min.js"></script>
+</head>

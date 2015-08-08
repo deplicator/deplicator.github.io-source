@@ -1,0 +1,103 @@
+
+@import url(fonts.css);
+
+@media print {
+    /* parsed from md, have to get creative with the css */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        color: #333;
+        font-family: 'LinuxLibertine';
+        font-size: 16px;
+        width: 8.5in;
+        height: 11in;
+        padding: 0.25in;
+    }
+    h1, h2, h3 {
+        color: #CD5310;
+        font-family: 'LinBiolinum';
+        margin: 0;
+    }
+
+    h1 {
+        padding: 0;
+        font-weight: 400;
+    font-size: 38px;
+    }
+
+    h2 {
+        font-size: 24px;
+        padding: 16px 0 0 0;
+    }
+
+    h3 {
+        font-size: 20px;
+        border-top: 1px solid #D0DAE0;
+        margin: 16px 0 0 0;
+        width: 90%;
+    }
+
+    h3 + p {
+        margin: 0 0 10px 0;
+    }
+
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #333;
+    }
+
+    pre {
+        display: none!important;
+    }
+
+    #james-pryor,
+    #james-pryor + p,
+    #achievements,
+    #achievements + ul {
+        clear: left;
+        float: left;
+        width: 49%;
+    }
+
+    #james-pryor + p,
+    #contact + p {
+        min-height: 50px;
+    }
+
+    #experience-and-skills + ul + p {
+        clear: both;
+        margin: 0 auto;
+        text-align: center;
+        width: 82%;
+    }
+
+    #notable-history {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        min-height: 110px;
+        padding: 0;
+    }
+
+    h3 + p > strong {
+        margin: -42px 0 0 0;
+        position: absolute;
+        left: 643px;
+        text-align: right;
+        width: 164px;
+        background-color: #D0DAE0;
+        border-bottom-left-radius: 9px;
+        border-top-right-radius: 9px;
+        padding: 0 10px 0 0;
+    }
+}

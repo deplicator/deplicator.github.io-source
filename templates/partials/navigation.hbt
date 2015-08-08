@@ -1,0 +1,39 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <ul class="nav navbar-nav navbar-toggle collapsed pull-right" aria-expanded="false">
+                <li><a class="ion-link" href="http://geekwagon.net"></a><li>
+            </ul>
+            <h1><a href="{{site.url}}">{{site.title}}</a></h1>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav pull-right" id="contact">
+                <li>
+                    <a class="ion-ios-email-outline" title="Email is one of the best ways to contact me." href="mailto:james@geekwagon.net"></a>
+                </li>
+                <li>
+                    <a class="ion-social-facebook-outline" href="https://www.facebook.com/deplicator"></a>
+                </li>
+                <li>
+                    <a
+                        class="ion-social-github-outline"
+                        title="I don't always put Facebook before GitHub, but when I do it's because they're in alphabetical order."
+                        href="https://github.com/deplicator">
+                    </a>
+                </li>
+                <li>
+                    <a class="ion-social-googleplus-outline" href="https://plus.google.com/100479632575151546186?rel=author"></a>
+                </li>
+                <li>
+                    <a class="ion-social-linkedin-outline" href="https://www.linkedin.com/in/pryorjames">
+                    </a>
+                </li>
+                <li>
+                    <a class="ion-link" href="http://geekwagon.net"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

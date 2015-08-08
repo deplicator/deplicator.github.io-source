@@ -1,0 +1,19 @@
+<!-- tag cloud only works on index, check into that. -->
+<div class="tagcloud"></div>
+<ul class="archive">
+    {{#each archive}}
+    <li><span class="glyphicon glyphicon-chevron-right"></span>
+        {{this.year}}
+        <ul>
+        {{#each this.data}}
+            <li><a href="{{this.path}}/index.html">{{this.title}}</a></li>
+        {{/each}}
+        </ul>
+    {{/each}}
+    </li>
+</ul>
+
+<script>
+    temp = '{{{tagCloud tags}}}';
+    $('.tagcloud').jQCloud(JSON.parse(temp))
+</script>

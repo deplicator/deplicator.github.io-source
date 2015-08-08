@@ -1,0 +1,47 @@
+{{> header}}
+<body>
+    {{> navigation}}
+    <div class="container-fluid">
+        <div class="col-sm-8 col-lg-7 col-lg-offset-1">
+            {{#each collections.blog}}
+            <article>
+                <h2>
+                    <a href="{{this.path}}/index.html">{{this.title}}</a>
+                </h2>
+                {{#if this.less}}
+                    <div>{{{this.less}}}</div>
+                    <div class="pull-right read-more"><a href="{{this.path}}/index.html">read more...</a></div>
+                {{else}}
+                    <div>{{{this.contents}}}</div>
+                {{/if}}
+                <div class="article-footer">
+                    <div class="date"><span class="glyphicon glyphicon-calendar"></span> {{betterDate this.date}}</div>
+                    <div class="comment">
+                        <span class="glyphicon glyphicon-comment"></span>
+                        <a href="{{this.path}}/index.html#disqus_thread" data-disqus-identifier="{{this.path}}">comments</a>
+                    </div>
+                    <div class="tags"><span class="glyphicon glyphicon-tags"></span> {{{betterTags this.tags}}}</div>
+                </div>
+            </article>
+            {{/each}}
+        </div>
+
+        <div class="hidden-xs col-sm-4 col-lg-2">
+            {{> sidebar}}
+        </div>
+    </div>
+
+    <script>
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'geekwagon';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+</body>
+</html>
