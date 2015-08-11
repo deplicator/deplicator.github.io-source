@@ -2,7 +2,7 @@
 <body>
     {{> navigation}}
     <div class="container-fluid">
-        <div class="col-sm-8">
+        <div class="col-sm-8 summary">
             {{#each collections.blog}}
             <article>
                 <h2>
