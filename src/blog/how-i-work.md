@@ -1,7 +1,7 @@
 ---
 title: How I Work
 date: 2015-06-22
-tags: about me, tutorial
+tags: about me, tutorial, web
 ---
 
 You know that [Life Hacker segment called "How I
@@ -16,6 +16,8 @@ about to disappoint you. I do it the hard way (but there are some awesome
 advantages).
 
 <!--more-->
+
+----------------------------------------------------------------------------------------------------
 
 For starters, here is a list of software categories and the specific tools I
 like.

@@ -1,7 +1,7 @@
 ---
 title: Sudoku from the Other Side
 date: 2015-04-15
-tags: project, sudoku, games
+tags: games, project, sudoku, web
 ---
 
 ![Real Sudoku Game][picture1]
@@ -13,6 +13,8 @@ Storage and a Sudoku library.
 [This is what I came up with][link1].
 
 <!-- more -->
+
+----------------------------------------------------------------------------------------------------
 
 I didn't use a library for local storage, for some reason I wanted to do it the
 hard way. This project has only been tested in Chrome, so if you want to see the

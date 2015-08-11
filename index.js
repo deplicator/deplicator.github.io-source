@@ -10,6 +10,15 @@ var tags        = require('metalsmith-tags');
 var templates   = require('metalsmith-templates');
 var handlebars  = require('handlebars');
 
+// Change between local dev or production.
+var url = 'http://deplicator.github.io'
+process.argv.forEach(function (val, index, array) {
+    if (index == 2) {
+        url = 'http://homeserver/sandbox/deplicator.github.io'
+    }
+});
+console.log(url);
+
 handlebars.registerPartial('header', fs.readFileSync(__dirname + '/templates/partials/header.hbt').toString());
 handlebars.registerPartial('navigation', fs.readFileSync(__dirname + '/templates/partials/navigation.hbt').toString());
 handlebars.registerPartial('sidebar', fs.readFileSync(__dirname + '/templates/partials/sidebar.hbt').toString());
@@ -99,7 +108,7 @@ metalsmith(__dirname)
         site: {
             author: 'James Pryor',
             title: 'A Blog by James',
-            url: 'http://deplicator.github.io'
+            url: url
         }
     })
     .use(drafts())
@@ -149,7 +158,7 @@ metalsmith(__dirname)
         directory: 'templates'
     }))
     .use(fixImages())
-//  .use(showMetadata())
+//    .use(showMetadata())
     .build(function(err) {
         if (err) {
             console.log(err);

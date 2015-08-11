@@ -1,12 +1,16 @@
 ---
 title: Tax Sliding
 date: 2015-07-26
-tags: project, finance, taxes
+tags: finance, project, taxes, web
 ---
 Today we're going to <del>complain</del> talk about taxes! Exciting, I know. So exciting
 [I made a thing for it][link1].
 
+_August 11, 2015 edit: Now with a graph!_
+
 <!-- more -->
+
+----------------------------------------------------------------------------------------------------
 
 I've done my own taxes every year since 1998 except for 2010, it's fun to me. Follow the
 instructions line by line, plug in numbers, do calculations--it's like a program written by the IRS
