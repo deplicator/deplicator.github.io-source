@@ -19,12 +19,26 @@ h1 a {
 }
 
 h1 a:hover {
+    background-image: none;
     color: inherit;
     text-decoration: none;
 }
 
 p {
     margin: 0 0 25px 0;
+}
+
+a {
+    color: #F9690E;
+}
+
+a:hover {
+    color: #F9690E;
+    text-decoration: none;
+    background-image: radial-gradient(ellipse at center, rgba(249,105,14,1) 0%, rgba(255,255,255,0) 90%);
+    background-size: 100% 10%;
+    background-repeat: repeat-x;
+    animation: rotate-bg 10s infinite linear;
 }
 
 .container,
@@ -40,15 +54,23 @@ p {
     color: #e5e5e5;
 }
 
+.navbar-default ul {
+    margin: 10px 0 0 0;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #e5e5e5;
-    padding: 7px 15px;
-    font-size: 45px;
+    padding: 0 15px;
+    font-size: 40px;
+    transition: 0.35s;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
     color: #34495E;
+    font-size: 48px;
+    padding: 0 11.5px;
+    background-image: none;
 }
 
 .navbar-toggle {
@@ -93,9 +115,11 @@ article h2 a {
     color: #34495e;
 }
 
-article a,
-article a:hover {
-    color: #F9690E;;
+
+
+@keyframes rotate-bg {
+  0% { background-position: 0 100%; }
+  100% { background-position: 50em 100%; }
 }
 
 @media (max-width: 768px) {
