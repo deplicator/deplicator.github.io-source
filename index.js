@@ -22,13 +22,14 @@ console.log(url);
 handlebars.registerPartial('header', fs.readFileSync(__dirname + '/templates/partials/header.hbt').toString());
 handlebars.registerPartial('navigation', fs.readFileSync(__dirname + '/templates/partials/navigation.hbt').toString());
 handlebars.registerPartial('sidebar', fs.readFileSync(__dirname + '/templates/partials/sidebar.hbt').toString());
+handlebars.registerPartial('modal-image', fs.readFileSync(__dirname + '/templates/partials/modal-image.hbt').toString());
 
 handlebars.registerHelper('betterDate', function(timestamp) {
     var theDaysILike = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satruday'];
     var theMonthsILike = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     var day = timestamp.getDay();
     var month = timestamp.getMonth();
-    var date = timestamp.getDate();
+    var date = timestamp.getDate() + 1; // to fix -5 timezone thing
     var year = timestamp.getFullYear();
     return theDaysILike[day] + ', ' + theMonthsILike[month] + ' ' + date + ', ' + year;
 });
@@ -36,7 +37,7 @@ handlebars.registerHelper('betterDate', function(timestamp) {
 handlebars.registerHelper('betterTags', function(tags) {
     var tagHtml = '';
     for(each in tags) {
-        tagHtml += '<span class="tag"><a href="topics/' + tags[each] + '.html">' + tags[each] + '</a></span>'
+        tagHtml += '<span class="tag"><a href="topics/' + tags[each] + '.html">' + tags[each] + '</a></span> '
     }
     return tagHtml;
 });
@@ -81,12 +82,18 @@ var showMetadata = function(something) {
     };
 };
 
-// fix paths to pictures
-var fixImages = function(options) {
+// fix paths to pictures and links
+var fixRelativePaths = function(options) {
     return function(files, metalsmith, done) {
         for(var file in files) {
             var currentdir = file.substring(0, file.indexOf('/'));
-            var re = new RegExp('<img src="../', 'g')
+            if(currentdir === 'blog' || currentdir === 'projects' || file === 'index.html') {
+                var re = new RegExp('<img src="../', 'g')
+                var content = files[file].contents.toString();
+                content = content.replace(re, '<img src="' + url + '/');
+                files[file].contents = new Buffer(content);
+            }
+/*
             if(currentdir === 'blog') {
                 var content = files[file].contents.toString();
                 content = content.replace(re, '<img src="../../');
@@ -95,7 +102,7 @@ var fixImages = function(options) {
                 var content = files[file].contents.toString();
                 content = content.replace(re, '<img src="');
                 files[file].contents = new Buffer(content);
-            }
+            }*/
         }
         done();
     };
@@ -157,7 +164,7 @@ metalsmith(__dirname)
         engine: 'handlebars',
         directory: 'templates'
     }))
-    .use(fixImages())
+    .use(fixRelativePaths())
 //    .use(showMetadata())
     .build(function(err) {
         if (err) {

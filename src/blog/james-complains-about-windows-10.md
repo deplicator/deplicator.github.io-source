@@ -27,7 +27,10 @@ I don't want to be all negative, there are some likable features.
 
 2. Two finger touch pad scrolling (fun fact: this is the only thing I like about Mac).
 
-3. Best for last: **Snap to Corners!** I've had this in Lubuntu for years and feel sad when I drag a
+3. You can resize the consoles width by clicking and dragging--what a crazy idea for an OS called
+   Windows.
+
+4. Best for last: **Snap to Corners!** I've had this in Lubuntu for years and feel sad when I drag a
    window to a corner on my Windows machine and it takes up half the screen instead of a quarter.
 
 
@@ -78,7 +81,7 @@ it was not prominent.
 
 _The Last Straw_: For most users, this may not be a big deal. I use a password manager and don't
 know my Microsoft Account password. I can't log in to open my password manager. I could reset the
-password from my other computer, but I decided it was time for that fresh install of Windows 10.
+password from another computer, but I decided it was time for that fresh install of Windows 10.
 
 
 ### Bonus: James Also Complains about Microsoft Edge
@@ -100,7 +103,7 @@ me set Chrome as default right after it happed.
 
 1. Flat UI with square corner.
 
-2. Cortana.
+2. Cortana--althought I could complain about needed a Microsoft Account to try it.
 
 
 

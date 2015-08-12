@@ -1,7 +1,7 @@
 ---
 title: Tax Sliding
 date: 2015-07-26
-tags: finance, project, taxes, web
+tags: bootstrap, d3, finance, javascript, jquery, project, taxes, web
 ---
 Today we're going to <del>complain</del> talk about taxes! Exciting, I know. So exciting
 [I made a thing for it][link1].

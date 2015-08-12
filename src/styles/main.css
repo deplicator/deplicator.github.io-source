@@ -23,6 +23,10 @@ h1 a:hover {
     text-decoration: none;
 }
 
+p {
+    margin: 0 0 25px 0;
+}
+
 .container,
 .container-fluid {
     max-width: 1200px;
@@ -116,6 +120,7 @@ article a:hover {
 }
 
 article img {
+    cursor: pointer;
     border: 1px solid #ddd;
     width: 100%;
 }
