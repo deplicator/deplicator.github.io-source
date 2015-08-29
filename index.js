@@ -93,16 +93,14 @@ var fixRelativePaths = function(options) {
                 content = content.replace(re, '<img src="' + url + '/');
                 files[file].contents = new Buffer(content);
             }
-/*
-            if(currentdir === 'blog') {
+            // Allow hash links in index to go to post page.
+            if(file === 'index.html') {
+                var re = new RegExp('href="#', 'g')
                 var content = files[file].contents.toString();
-                content = content.replace(re, '<img src="../../');
+                console.log(files[file])
+                content = content.replace(re, 'href="' + url + '/#'); //how to get post link here?
                 files[file].contents = new Buffer(content);
-            } else if(file === 'index.html') {
-                var content = files[file].contents.toString();
-                content = content.replace(re, '<img src="');
-                files[file].contents = new Buffer(content);
-            }*/
+            }
         }
         done();
     };

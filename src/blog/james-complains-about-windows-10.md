@@ -116,4 +116,4 @@ me set Chrome as default right after it happed.
 [link-2]: https://www.microsoft.com/en-us/software-download/faq
 [link-3]: http://answers.microsoft.com/en-us/windows/forum/windows_10-networking/microsoft-edge-cant-open-files-html-pdf-etc-stored/3780e206-8b86-496f-bf3c-de4853f4b0a5
 [link-4]: https://en.wikipedia.org/wiki/Meh
-[link-5]: blog/james-complains-about-windows-10/index.html#bonus-james-also-complains-about-microsoft-edge
+[link-5]: #bonus-james-also-complains-about-microsoft-edge
