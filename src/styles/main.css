@@ -189,8 +189,9 @@ article > img {
 }
 
 .archive {
-    font-size: 17px;
+    font-size: 16px;
     list-style-type: none;
+    padding: 0;
 }
 
 .archive a {
@@ -204,6 +205,10 @@ article > img {
 .archive li .glyphicon {
     font-size: 12px;
     padding: 0 5px 0 0;
+}
+
+.archive .month {
+    font-size: 11px;
 }
 
 

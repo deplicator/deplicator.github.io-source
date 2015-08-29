@@ -36,6 +36,11 @@ handlebars.registerHelper('betterDate', function(timestamp) {
     return theDaysILike[day] + ', ' + theMonthsILike[month] + ' ' + date + ', ' + year;
 });
 
+handlebars.registerHelper('monthOnly', function(timestamp) {
+    var theMonthsILike = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    return theMonthsILike[timestamp.getUTCMonth()];
+});
+
 handlebars.registerHelper('betterTags', function(tags) {
     var tagHtml = '';
     for(each in tags) {

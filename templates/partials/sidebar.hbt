@@ -6,7 +6,7 @@
         {{this.year}}
         <ul>
         {{#each this.data}}
-            <li><a href="{{this.path}}/index.html">{{this.title}}</a></li>
+            <li><span class="month">{{monthOnly this.date}}</span> <a href="{{this.path}}/index.html">{{this.title}}</a></li>
         {{/each}}
         </ul>
     {{/each}}
