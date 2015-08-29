@@ -17,6 +17,8 @@ process.argv.forEach(function (val, index, array) {
         url = 'http://homeserver/sandbox/deplicator.github.io'
     }
 });
+
+// Did we build for local or github pages?
 console.log(url);
 
 handlebars.registerPartial('header', fs.readFileSync(__dirname + '/templates/partials/header.hbt').toString());
@@ -27,9 +29,9 @@ handlebars.registerPartial('modal-image', fs.readFileSync(__dirname + '/template
 handlebars.registerHelper('betterDate', function(timestamp) {
     var theDaysILike = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satruday'];
     var theMonthsILike = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    var day = timestamp.getDay();
-    var month = timestamp.getMonth();
-    var date = timestamp.getDate() + 1; // to fix -5 timezone thing
+    var day = timestamp.getUTCDay();
+    var month = timestamp.getUTCMonth();
+    var date = timestamp.getUTCDate();
     var year = timestamp.getFullYear();
     return theDaysILike[day] + ', ' + theMonthsILike[month] + ' ' + date + ', ' + year;
 });
