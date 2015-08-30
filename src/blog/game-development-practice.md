@@ -1,7 +1,7 @@
 ---
 title: Game Development Practice
 date: 2014-08-30
-tags: games, ideas
+tags: game development, ideas
 ---
 
 ![Game in a tube, what a concept!][pic-1]

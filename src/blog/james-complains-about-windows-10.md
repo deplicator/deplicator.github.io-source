@@ -1,7 +1,7 @@
 ---
 title: James Complains about Windows 10
 date: 2015-08-08
-tags: complaints, microsoft, windows, edge
+tags: browsers, complaints, microsoft, operating systems, windows, edge
 ---
 
 ![Did something happen?][pic-1]

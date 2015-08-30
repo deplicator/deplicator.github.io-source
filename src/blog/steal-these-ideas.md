@@ -1,7 +1,7 @@
 ---
 title: Steal These Ideas
 date: 2014-09-29
-tags: ideas, math, theory
+tags: experiment, ideas, math, theory
 ---
 
 September is almost over, and I've come up with many excuses to do something other than write this
