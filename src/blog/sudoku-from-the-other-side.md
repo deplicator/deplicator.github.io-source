@@ -1,7 +1,7 @@
 ---
 title: Sudoku from the Other Side
 date: 2015-04-15
-tags: bootstrap, experiment, javascript, jquery, game development, project, requirejs, sudoku, _underscore, web
+tags: bootstrap, experiment, javascript, jquery, game development, project, requirejs, sudoku, underscore, web application
 ---
 
 ![Real Sudoku Game][picture1]

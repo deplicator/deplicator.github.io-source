@@ -1,7 +1,7 @@
 ---
 title: Understanding OAuth
 date: 2015-09-01
-tags: github, oauth, php, project, tutorial, web
+tags: demo, github, oauth, tutorial
 ---
 
 ![Totally took a picture of the screen with my phone--trendy.][pic-1]

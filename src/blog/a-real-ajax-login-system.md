@@ -1,7 +1,7 @@
 ---
 title: A Real Ajax Login System
 date: 2014-12-12
-tags: bootstrap, complaints, javascript, jquery, php, security, tutorial, web
+tags: ajax, complaints, demo, security, tutorial
 ---
 
 ![Real Ajax Login][picture-1]

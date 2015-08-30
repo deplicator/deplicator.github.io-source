@@ -1,7 +1,7 @@
 ---
 title: Just Another Tetris Clone
 date: 2014-06-20
-tags: game development, jquery, mobile, phaser, tetris, web
+tags: game development, jquery, mobile, phaser, project, tetris, web application
 ---
 
 ![It wasn't me][pic-1]

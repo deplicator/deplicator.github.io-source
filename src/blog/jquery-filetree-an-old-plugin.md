@@ -1,7 +1,7 @@
 ---
 title: jQuery FileTree - An Old Plugin
 date: 2014-11-29
-tags: jquery, php, plugin, web
+tags: jquery, plugin, web development
 ---
 
 I've been on a project at school for some time, it's a lot of fun. I enjoy working with others for a

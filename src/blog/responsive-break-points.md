@@ -1,7 +1,7 @@
 ---
 title: Responsive Break Points
 date: 2014-03-23
-tags: about me, bootstrap, project, web
+tags: about me, web development
 ---
 
 ![geekwagon on a phone sized screen][pic-1]
