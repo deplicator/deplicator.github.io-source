@@ -1,7 +1,7 @@
 ---
 title: Ultima VII Party Planner
 date: 2014-01-25
-tags: backbone, javascript, jquery, project, underscore, ultima, web application
+tags: backbone, javascript, jquery, project, underscore, ultima, web app
 ---
 
 ![The Exult form loved it.][pic-1]

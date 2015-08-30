@@ -15,5 +15,12 @@
 
 <script>
     temp = '{{{tagCloud tags}}}';
-    $('.tagcloud').jQCloud(JSON.parse(temp))
+    $('.tagcloud').jQCloud(JSON.parse(temp), {
+        shape: 'rectangular',
+        height: 500,
+        afterCloudRender: function() {
+            $('div.jqcloud').css('height', '550px');
+            $('div.jqcloud span').css('padding', '6px');
+        }
+    })
 </script>

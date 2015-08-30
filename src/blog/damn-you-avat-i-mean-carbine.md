@@ -11,6 +11,8 @@ comes out in two days and I already know my weekend is ruined. This game is too 
 [link-3]. I'm also linking to phrases that come from pop/nerd culture that have influenced my way of
 thought over the years. It's an experiment to [out the random clutter in my conscience][link-4].
 
+<!-- more -->
+
 <iframe
     style="display: block; margin: 0 auto;"
     width="560"
@@ -19,8 +21,6 @@ thought over the years. It's an experiment to [out the random clutter in my cons
     frameborder="0"
     allowfullscreen>
 </iframe>
-
-<!-- more -->
 
 ----------------------------------------------------------------------------------------------------
 

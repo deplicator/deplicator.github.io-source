@@ -1,7 +1,7 @@
 ---
 title: How I Work
 date: 2015-06-22
-tags: about me, tutorial, web development
+tags: about me, tutorial, web dev
 ---
 
 You know that [Life Hacker segment called "How I
