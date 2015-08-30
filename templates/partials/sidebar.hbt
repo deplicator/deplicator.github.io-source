@@ -14,13 +14,17 @@
 </ul>
 
 <script>
-    temp = '{{{tagCloud tags}}}';
-    $('.tagcloud').jQCloud(JSON.parse(temp), {
+    var tags = '{{{tagCloud tags}}}';
+    var cloudColors = ['#FFFFFF', '#F5F5F5', '#EBEBEB'];
+    $('.tagcloud').jQCloud(JSON.parse(tags), {
         shape: 'rectangular',
         height: 500,
         afterCloudRender: function() {
-            $('div.jqcloud').css('height', '550px');
-            $('div.jqcloud span').css('padding', '6px');
+            $('div.jqcloud').css('height', '515px');
+            $('div.jqcloud span').each(function() {
+                $(this).css('padding', '6px');
+                $(this).css('background', cloudColors[Math.floor(Math.random() * (3))]);
+            });
         }
     })
 </script>

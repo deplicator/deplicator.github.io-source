@@ -8,28 +8,25 @@
 
 /* layout */
 div.jqcloud {
-  overflow: hidden;
-  position: relative;
+    background-color: skyblue;
+    border: 3px solid;
+    color: darkgray;
+    font-size: 10px;
+    line-height: normal;
+    overflow: hidden;
+    position: relative;
 }
 
 div.jqcloud span {
-    border: 1px solid;
-    background-color: antiquewhite;
+    background-color: floralwhite;
+    border: 3px solid whitesmoke;
     border-radius: 100px;
-    padding: 1px;
     white-space: nowrap;
 }
 
-/* fonts */
-div.jqcloud {
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 10px;
-  line-height: normal;
-}
-
 div.jqcloud a {
-  font-size: inherit;
-
+    color: inherit;
+    font-size: inherit;
 }
 
 div.jqcloud span.w10 { font-size: 550%; }
@@ -42,7 +39,3 @@ div.jqcloud span.w4 { font-size: 250%; }
 div.jqcloud span.w3 { font-size: 200%; }
 div.jqcloud span.w2 { font-size: 150%; }
 div.jqcloud span.w1 { font-size: 100%; }
-
-/* colors */
-div.jqcloud { color: #F9690E; }
-div.jqcloud a { color: inherit; }
