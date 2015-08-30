@@ -104,7 +104,6 @@ var fixRelativePaths = function(options) {
             if(file === 'index.html') {
                 var re = new RegExp('href="#', 'g')
                 var content = files[file].contents.toString();
-                console.log(files[file])
                 content = content.replace(re, 'href="' + url + '/#'); //how to get post link here?
                 files[file].contents = new Buffer(content);
             }

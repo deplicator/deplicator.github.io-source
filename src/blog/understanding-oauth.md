@@ -9,9 +9,9 @@ tags: github, oauth, php, project, tutorial, web
 Playing with Github's API without authorization has a limit of 50 calls per hour. I hit this limit
 faster than expected. It is time to learn how [OAuth][link-1] works.
 
-[Here is the demo I made to help me get it][link-2]. This is not the best demo, but it works. Anyone
-with more knowledge in this area please leave feedback in the comments. I'm all for making this
-better.
+[Here is the demo I made to help me get it][link-2]. This is not the best demo, but it works. [This
+is the demo's source][link-8]. Anyone with more knowledge in this area please leave feedback in the
+comments. I'm all for making this better.
 
 ### Step 1 - Make Stuff Up
 
@@ -40,9 +40,14 @@ this:
 
 `$_SESSION["state"] = hash("sha256", microtime(TRUE).rand().$_SERVER["REMOTE_ADDR"]);`
 
-This was lifted from an [old Gist by aaronpk][link-4] I found while searching for how to OAuth. I
-referred to this gist several times, but this is the only part left untouched because it works. Make
-note we've stored this random number in a [PHP Session][link-5].
+You can see it on line 184 in [the source][link-8]. I should point out here, the source is a single
+file so it's got HTML, PHP, and CSS all in one (no custom JavaScript needed, it's handled through
+Bootstrap and jQuery). It is a little messy. I hope to add a concise version later, but it's not
+necessary because there are free PHP OAuth libraries better than this.
+
+The random state string was lifted from an [old Gist by aaronpk][link-4] I found while searching for
+how to OAuth. I referred to this gist several times, but this is the only part left untouched
+because it works. Make note we've stored this random number in a [PHP Session][link-5].
 
 Now that we have a client ID and a state, we can move on to the next step.
 
@@ -140,3 +145,4 @@ key `repos_url`, then use that url to list the users repositories.
 [link-5]: http://php.net/manual/en/session.examples.basic.php
 [link-6]: https://en.wikipedia.org/wiki/CURL
 [link-7]: https://developer.github.com/v3/oauth/#use-the-access-token-to-access-the-api
+[link-8]: https://gist.github.com/deplicator/b00cf1c5d61ab6b0a714
