@@ -1,7 +1,7 @@
 ---
 title: My First WildStar Addon - Kael's Housing Tour
 date: 2014-07-19
-tags: game development, lua, plugin, project
+tags: lua, mmorpg, plugin, project
 ---
 
 ![Oh WildStar how fun you were; too bad things didn't work out...][pic-1]
