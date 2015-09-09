@@ -11,7 +11,7 @@ var templates   = require('metalsmith-templates');
 var handlebars  = require('handlebars');
 
 // Change between local dev or production.
-var url = 'http://deplicator.github.io'
+var url = 'https://deplicator.github.io'
 process.argv.forEach(function (val, index, array) {
     if (index == 2) {
         url = 'http://homeserver/sandbox/deplicator.github.io'

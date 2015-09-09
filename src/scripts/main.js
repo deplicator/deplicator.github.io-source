@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    // Redirect users to https.
+    if (window.location.protocol != 'https') {
+        window.location.protocol = 'https:';
+    }
+
     // Reconbobulate html structure around aticle images.
     $('img').each(function() {
         $(this).parent().append('<div class="image-caption"/>');
