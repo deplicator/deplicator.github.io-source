@@ -1,5 +1,6 @@
 
 @import url(fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 @media print {
     /* parsed from md, have to get creative with the css */
@@ -9,15 +10,16 @@
     }
 
     body {
-        color: #333;
-        font-family: 'LinuxLibertine';
-        font-size: 16px;
+        color: #3E3E3E;
+        /*font-family: 'LinuxLibertine';*/
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
         width: 8.5in;
         height: 11in;
         padding: 0.25in;
     }
     h1, h2, h3 {
-        color: #CD5310;
+        color: #3950C3;
         font-family: 'LinBiolinum';
         margin: 0;
     }
@@ -25,7 +27,7 @@
     h1 {
         padding: 0;
         font-weight: 400;
-    font-size: 38px;
+        font-size: 38px;
     }
 
     h2 {
@@ -36,7 +38,7 @@
     h3 {
         font-size: 20px;
         border-top: 1px solid #D0DAE0;
-        margin: 16px 0 0 0;
+        margin: 26px 0 0 0;
         width: 90%;
     }
 
@@ -45,12 +47,12 @@
     }
 
     a {
-        color: #333;
+        color: #3E3E3E;
         text-decoration: none;
     }
 
     a:hover {
-        color: #333;
+        color: #3E3E3E;
     }
 
     pre {
@@ -69,16 +71,19 @@
     #james-pryor + p,
     #contact + p {
         min-height: 50px;
+        font-size: 16px;
     }
 
     #experience-and-skills + ul + p {
         clear: both;
+        font-family: 'LinuxLibertine';
         margin: 0 auto;
         text-align: center;
-        width: 82%;
+        width: 74%;
     }
 
     #notable-history {
+        margin: 0 0 -20px 0;
         text-align: center;
     }
 
@@ -90,14 +95,19 @@
     }
 
     h3 + p > strong {
-        margin: -42px 0 0 0;
+        border: 1px solid #D0DAE0;
+        font-family: 'LinuxLibertine';
+        margin: -41px 0 0 0;
         position: absolute;
-        left: 643px;
+        left: 706px;
         text-align: right;
-        width: 164px;
-        background-color: #D0DAE0;
+        width: 120;
         border-bottom-left-radius: 9px;
         border-top-right-radius: 9px;
         padding: 0 10px 0 0;
+    }
+
+    h3 + p > em {
+        font-family: 'LinuxLibertine';
     }
 }

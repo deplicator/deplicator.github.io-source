@@ -30,16 +30,16 @@ Experience and Skills
 - technical writer
 - customer service
 
-_Windows, Linux, git, JavaScript, jQuery, Underscore.js, Backbone.js, node.js, PHP, C++, Java, Python, .NET Framework, SQL, HTML, CSS, Wiki Markup, WordPress, Markdown, Apache, networks_
+_Windows, Linux, git, JavaScript, jQuery, Underscore.js, Backbone.js, node.js, Phaser.io, PHP, C++, Java, Python, .NET Framework, SQL, HTML, CSS, Wiki Markup, WordPress, Markdown, Apache_
 
 
 Notable History
 ---------------
 ### Prairie View A&M
 _Bachelors in Computer Science / Student Employee_  
-**Graduating May 2016**
+**2012 - 2016**
 
-In addition to a degree, I created an interface for the [Cloud Computing Research Group][1] to spare users from the command line. I also built a ticket system to help the Provost's Office process student requests.
+My senior design project was a multi-player HTML5 space combat game. In addition to a degree, I created a web interface for the [Cloud Computing Research Group][1] to spare users from the command line. I also built a ticket system to help the Provost's Office process student requests.
 <pre><meter value="0.9127"></meter> <-- earning bachelors 91.27%</pre>
 
 ### Hewlett Packard Enterprise
@@ -53,12 +53,6 @@ _Software Development Internship_
 **Summer of 2013**  
 
 Built a user friendly interface to tests the on-board computer of the [Orion Multi-Purpose Crew Vehicle][2], making life a little better for some NASA engineers.
-
-### Burgess Specialty Fabricating
-_Information Technology Administrator_  
-**2010 - 2014**  
-
-Upgraded all clients and virtualized on site servers. Created extensive internal documentation. I was confronted with developing solutions for a variety of unique manufacturing equipment.
 
 ### Lone Star University
 _Student_  
