@@ -24,12 +24,19 @@ h1 a:hover {
     text-decoration: none;
 }
 
+h3 {
+    color: #F9690E;
+    margin: 32px 0 0 0;
+    font-weight: 700;
+}
+
 p {
     margin: 0 0 25px 0;
 }
 
 a {
     color: #F9690E;
+    text-decoration: underline;
 }
 
 a:hover {

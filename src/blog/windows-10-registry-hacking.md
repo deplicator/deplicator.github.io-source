@@ -9,7 +9,7 @@ Why does Windows 10 require so much registry editing for such basic features?
 ![giant regedit icon][pic-1]
 
 I [complained about Windows 10 earlier this year][link-1]. To be fair it wasn't all complaining.
-Since then I've moved to Windows 10 on my desktop where it gets far more use. One four occasions now
+Since then I've moved to Windows 10 on my desktop where it gets far more use. On four occasions now
 I've had to resort to editing the registry to change options that I would think could be changed
 somewhere in the settings menu.
 
