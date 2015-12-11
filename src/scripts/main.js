@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-    // Redirect users to https.
-    if (window.location.protocol != 'https:') {
+    // Redirect users to https in dev.
+    if (window.location.protocol != 'https:' && window.location.hostname != 'homeserver') {
         window.location.protocol = 'https:';
     }
 
