@@ -36,7 +36,6 @@ p {
 
 a {
     color: #F9690E;
-    text-decoration: underline;
 }
 
 a:hover {
@@ -112,6 +111,11 @@ article *::selection {
     color: #e5e5e5;
 }
 
+article .article-header {
+
+    color: #777;
+}
+
 article h2 {
     margin: 0;
     padding: 11px 0 5px 0;
@@ -120,6 +124,10 @@ article h2 {
 
 article h2 a {
     color: #34495e;
+}
+
+article .post-content {
+    clear: both;
 }
 
 
@@ -179,7 +187,8 @@ article > img {
     margin: 40px 0 0 0;
 }
 
-.article-footer .glyphicon {
+.article-footer .glyphicon,
+.article-footer .icon {
     padding: 10px;
 }
 

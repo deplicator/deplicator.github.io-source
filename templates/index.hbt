@@ -15,12 +15,12 @@
                     <div>{{{this.contents}}}</div>
                 {{/if}}
                 <div class="article-footer">
-                    <div class="date"><span class="glyphicon glyphicon-calendar"></span> {{betterDate this.date}}</div>
+                    <div class="date"><span class="icon ion-calendar"></span> {{betterDate this.date}}</div>
                     <div class="comment">
                         <span class="glyphicon glyphicon-comment"></span>
-                        <a href="{{this.path}}/index.html#disqus_thread" data-disqus-identifier="{{this.path}}">comments</a>
+                        <a href="{{this.path}}/index.html#disqus_thread" data-disqus-identifier="{{this.path}}"> comments</a>
                     </div>
-                    <div class="tags"><span class="glyphicon glyphicon-tags"></span> {{{betterTags this.tags}}}</div>
+                    <div class="tags"><span class="icon ion-ios-pricetags-outline"></span> {{{betterTags this.tags}}}</div>
                 </div>
             </article>
             {{/each}}

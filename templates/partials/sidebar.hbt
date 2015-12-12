@@ -1,4 +1,5 @@
 <!-- tag cloud only works on index, check into that. -->
+<div class="projects-list"></div>
 <div class="tagcloud"></div>
 <ul class="archive">
     {{#each archive}}

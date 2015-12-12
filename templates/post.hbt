@@ -4,11 +4,25 @@
     <div class="container-fluid">
         <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
             <article>
-                <a href="../../"><span class="glyphicon glyphicon-circle-arrow-left"></span>back</a>
-                <a href="#disqus_thread"><span class="glyphicon glyphicon-comment"></span>comments</a>
-                <h2>{{title}}</h2>
-                <div>{{betterDate date}}</div>
-                <div>{{{contents}}}</div>
+                <div class="article-header">
+                    <div class="col-xs-3">
+                        <span class="icon ion-arrow-left-a"></span><a href="../../"> back</a>
+                    </div>
+                    <div class="col-xs-6 text-center text-nowrap">
+                        <span class="icon ion-calendar"></span> {{betterDate this.date}}
+                    </div>
+                    <div class="col-xs-3 text-right">
+                        <span class="glyphicon glyphicon-comment"></span><a href="#disqus_thread"> comments</a>
+                    </div>
+                </div>
+
+
+
+                <div class="post-content">
+                    <h2>{{title}}</h2>
+                    {{{contents}}}
+                </div>
+                <div class="tags"><span class="icon ion-ios-pricetags-outline"></span> {{{betterTags this.tags}}}</div>
             </article>
             <div id="disqus_thread"></div>
         </div>

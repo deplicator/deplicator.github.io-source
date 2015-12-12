@@ -6,7 +6,7 @@ tags: complaints, microsoft, operating systems, regedit, windows
 
 Why does Windows 10 require so much registry editing for such basic features?
 
-![giant regedit icon][pic-1]
+![giant out of focus regedit icon][pic-1]
 
 I [complained about Windows 10 earlier this year][link-1]. To be fair it wasn't all complaining.
 Since then I've moved to Windows 10 on my desktop where it gets far more use. On four occasions now
