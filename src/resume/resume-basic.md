@@ -3,7 +3,7 @@
 James Pryor
 ===========
 
-A software developer and technology enthusiast seeking more experience crafting solutions.
+A software developer and technology enthusiast seeking experience crafting solutions.
 
 
 Contact
@@ -18,59 +18,71 @@ Achievements
 ------------
 - Eagle Scout
 - Honorable Discharge, USMC
-- Lone Star College - Associates of Business - 4.0
-- Prairie View A&M - _working on_ Bachelors of CS - 3.8
+- Lone Star College - Associates of Business - **4.0**
+- Prairie View A&M - Bachelors of CS - **3.8**
 
 
 Experience and Skills
 ---------------------
 - team member and leader
-- developer for web and applications
-- IT administrator
-- technical writer
+- software development
+- technical writing
 - customer service
-
-_Windows, Linux, git, JavaScript, jQuery, Underscore.js, Backbone.js, node.js, Phaser.io, PHP, C++, Java, Python, .NET Framework, SQL, HTML, CSS, Wiki Markup, WordPress, Markdown, Apache_
 
 
 Notable History
 ---------------
-### Prairie View A&M
-_Bachelors in Computer Science / Student Employee_  
-**2012 - 2016**
+### Prairie View A&M <small>_Bachelors in Computer Science_ **2012 - 2016**</small>
 
-My senior design project was a multi-player HTML5 space combat game. In addition to a degree, I created a web interface for the [Cloud Computing Research Group][1] to spare users from the command line. I also built a ticket system to help the Provost's Office process student requests.
-<pre><meter value="0.9127"></meter> <-- earning bachelors 91.27%</pre>
+I lead my senior design team to build a web based multi-player space combat game. The server side
+was Node.js, Socket.io, and MongoDB; while the client side used Phaser.io for the game engine along
+with the usual Bootstrap and jQuery to make it pretty.
 
-### Hewlett Packard Enterprise
-_Software Development Internship_  
-**Summer of 2015**
+As a research assistant I built a ticket system to help the Provost's Office process student
+requests. It was made with an MVC (Backbone.js), a PHP API (Slim), and a ton of documentation
+because someone else would be taking it over.
 
-Setup a Wiki for internal documentation saving employee's time because it was a fast way to find information and easy to maintain.
+While working for the [Cloud Computing Research Group][1] I made a web interface to spare image
+processing users from the command line. The backend was a Hadoop Cluster and we visualized the data
+with D3.
 
-### L3 Communications
-_Software Development Internship_  
-**Summer of 2013**  
+I got a degree too.
 
-Built a user friendly interface to tests the on-board computer of the [Orion Multi-Purpose Crew Vehicle][2], making life a little better for some NASA engineers.
+<pre><meter value="0.9841"></meter> <-- earning bachelors 98.41%</pre>
 
-### Lone Star University
-_Student_  
-**2010 - 2011**  
+### Hewlett Packard Enterprise <small>_Software Development Internship_ **Summer of 2015**</small>
+
+I was part of a crack team of interns that pulled a bunch of complicated data from multiple
+databases and visualized it in the coolest way possible. This was the first time I made extensive
+use of Visual Studios and the .NET Framework. It has it's pros and cons.
+
+I also setup a Wiki for internal documentation saving employee's time because it was quick for
+finding information and easy to maintain. It was the first time I set up PHP on IIS, and used a
+MSSQL database instead of MySQL. They really like Microsoft at HP.
+
+### L3 Communications <small>_Software Development Internship_ **Summer of 2013**</small>
+
+I got this internship because I already knew Linux and Git. Every morning I drove past Rocket park
+to build a user friendly interface that tested the on-board computer of the [Orion Multi-Purpose
+Crew Vehicle][2], making life a little easier for some NASA engineers. It was so cool.
+
+It was also my first experience with Node.js and I used so much jQuery I no longer have to look up
+how to use most methods.
+
+### Lone Star University <small>_Student_ **2010 - 2011**</small>
 
 Graduated _summa cum laude_ and I hope they don't take it away for having to look up what it meant.
 
-### Sidtek, L.L.C.
-_Head Computer Repair Technician_  
-**2003 - 2008**  
+### Sidtek, L.L.C. <small>_Head Computer Repair Technician_ **2003 - 2008**</small>
 
-My role was to make sure customers were satisfied and the company profited. There was also a lot of troubleshooting involved--ran into many interesting problems. Learned I enjoy helping people more than fixing computers.
+My role was to make sure customers were satisfied and the company profited. There was a lot of
+troubleshooting involved--ran into many interesting problems. Learned I enjoy helping people more
+than fixing computers.
 
-### United States Marine Corps
-_Sergeant - Nuclear, Biological, and Chemical Warfare Defense Specialist_  
-**1998 - 2003**  
+### United States Marine Corps <small>_Sergeant - Nuclear, Biological, and Chemical Warfare Defense Specialist_ **1998 - 2003**</small>
 
-Most of my time was spent in warehouse management and administrative work, but teaching fellow Marines to [survive in contaminated environments][3] was the most rewarding role.
+Most of my time was spent in warehouse management and administrative work, but teaching fellow
+Marines to [survive in contaminated environments][3] was a rewarding role.
 
 
 [1]: http://www.pvamu.edu/include/Computer_Science/cloudgroup.pdf
