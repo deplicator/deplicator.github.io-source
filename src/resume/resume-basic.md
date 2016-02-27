@@ -2,37 +2,21 @@
 
 James Pryor
 ===========
-
-A software developer and technology enthusiast seeking experience crafting solutions.
-
-
-Contact
--------
-[(832) 515-6956](        tel: 8325156956) |
-**[james@geekwagon.net](mailto: james@geekwagon.net               )**
-[linkedin.com/in/pryorjames]( http://linkedin.com/in/pryorjames ) |
-[github.com/deplicator](      http://github.com/deplicator      )  
+- **[james@geekwagon.net](         mailto: james@geekwagon.net       )**
+- [(832) 515-6956](                tel: 8325156956                   )
+- [linkedin.com/in/pryorjames](    http://linkedin.com/in/pryorjames )
+- [github.com/deplicator](         http://github.com/deplicator      )
 
 
-Achievements
-------------
+- Prairie View A&M - Bachelors of CS, **3.8**
+- Lone Star College - Associates of Business, **4.0**
+- USMC - Sergeant, Honorable Discharge
 - Eagle Scout
-- Honorable Discharge, USMC
-- Lone Star College - Associates of Business - **4.0**
-- Prairie View A&M - Bachelors of CS - **3.8**
 
 
-Experience and Skills
----------------------
-- team member and leader
-- software development
-- technical writing
-- customer service
-
-
-Notable History
----------------
-### Prairie View A&M <small>_Bachelors in Computer Science_ **2012 - 2016**</small>
+History
+-------
+### Prairie View A&M <small>_Bachelors in Computer Science/Research Assistant_ **2012 - 2016**</small>
 
 I lead my senior design team to build a web based multi-player space combat game. The server side
 was Node.js, Socket.io, and MongoDB; while the client side used Phaser.io for the game engine along
@@ -81,8 +65,8 @@ than fixing computers.
 
 ### United States Marine Corps <small>_Sergeant - Nuclear, Biological, and Chemical Warfare Defense Specialist_ **1998 - 2003**</small>
 
-Most of my time was spent in warehouse management and administrative work, but teaching fellow
-Marines to [survive in contaminated environments][3] was a rewarding role.
+Teaching fellow Marines to [survive in contaminated environments][3] was an important and rewarding
+role.
 
 
 [1]: http://www.pvamu.edu/include/Computer_Science/cloudgroup.pdf

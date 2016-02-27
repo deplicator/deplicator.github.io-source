@@ -2,6 +2,9 @@
 @import url(fonts.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @media print {
+    @page {
+        margin: 0;
+    }
     /* parsed from md, have to get creative with the css */
     * {
         margin: 0;
@@ -17,8 +20,9 @@
         height: 11in;
         padding: 0.25in;
     }
+
     h1, h2, h3 {
-        color: #3950C3;
+        color: black;
         font-family: 'LinBiolinum';
         margin: 0;
     }
@@ -86,35 +90,15 @@
         display: none!important;
     }
 
-    #james-pryor,
-    #james-pryor + p,
-    #achievements,
-    #achievements + ul {
-        clear: left;
+    #james-pryor + ul,
+    #james-pryor + ul + ul {
         float: left;
-        width: 49%;
+        width: 40%;
     }
 
-    #james-pryor + p,
-    #contact + p {
-        min-height: 50px;
-        font-size: 16px;
-    }
-
-    #contact + p > strong {
-        font-weight: 600;
-    }
-
-    #experience-and-skills + ul + p {
+    #history {
         clear: both;
-        font-family: 'LinuxLibertine';
-        margin: 0 auto;
-        text-align: center;
-        width: 74%;
-    }
-
-    #notable-history {
-        margin: 20px 0 -20px 0;
+        margin: 98px 0 -16px 0;
         text-align: center;
     }
 

@@ -14,7 +14,7 @@ var handlebars  = require('handlebars');
 var url = 'https://deplicator.github.io'
 process.argv.forEach(function (val, index, array) {
     if (index == 2) {
-        url = 'http://homeserver/sandbox/deplicator.github.io'
+        url = 'http://homeserver/dev/deplicator.github.io'
     }
 });
 
