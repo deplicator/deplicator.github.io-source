@@ -1,9 +1,0 @@
-
-
-{{tag}}
-
-{{#each pagination.files}}
-	<article>
-        <a href="../../{{this.path}}/index.html"><h2>{{this.title}}</h2></a>
-    </article>
-{{/each}}
