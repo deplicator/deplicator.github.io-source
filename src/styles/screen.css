@@ -1,4 +1,10 @@
 @media screen {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         color: #3E3E3E;
         /*font-family: 'LinuxLibertine';*/
@@ -9,12 +15,103 @@
         padding: 0.25in;
     }
 
-    ul {
+    h1, h2, h3 {
+        color: black;
+        font-family: 'LinBiolinum';
+        margin: 0;
+    }
+
+    h1 {
+        padding: 0 0 10px 0;
+        font-weight: 400;
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 24px;
+        padding: 10px 0 0 0;
+    }
+
+    h3 {
+        font-size: 20px;
+        border-top: 1px solid #D0DAE0;
+        margin: 29px 0 0 0;
+        width: 90%;
+    }
+
+    h3 small {
+        font-weight: normal;
+    }
+
+    h3 small em {
+        color: #3E3E3E;
+        font-family: 'LinuxLibertine';
+        font-size: 14px;
+        margin: 0 0 0 12px;
+    }
+
+    h3 small strong {
+        color: #3E3E3E;
+        float: right;
+        font-size: 15px;
+        border: 1px solid #D0DAE0;
+        font-family: 'LinuxLibertine';
+        margin: -1px 0 0 0;
+        position: absolute;
+        left: 706px;
+        text-align: right;
+        width: 120;
+        border-bottom-left-radius: 9px;
+        border-top-right-radius: 9px;
+        padding: 0 10px 0 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 6px 0 0 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    li > ul {
+        font-size: 14px;
+        padding: 0 0 0 14px;
+    }
+
+    #james-pryor + ul {
         float: left;
+        margin: 0 0 0 12px;
+        width: 40%;
+    }
+
+    #james-pryor + ul + ul {
+        float: left;
+        margin: -42px 0 0 80px;
+        border: 1px solid #D0DAE0;
+        padding: 6px 10px;
+        border-radius: 9px;
+        background: #FCFCFC;
     }
 
     #history {
         clear: both;
+        margin: 98px 0 -16px 0;
+
     }
 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .no-print {
+        display: none;
+    }
 }

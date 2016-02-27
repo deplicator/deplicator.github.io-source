@@ -8,10 +8,13 @@ James Pryor
 - [github.com/deplicator](         http://github.com/deplicator      )
 
 
-- Prairie View A&M - Bachelors of CS, **3.8**
-- Lone Star College - Associates of Business, **4.0**
-- USMC - Sergeant, Honorable Discharge
-- Eagle Scout
+- **Bachelors of Computer Science**
+    - Prairie View A&M, graduating May 2016, **GPA: 3.8**
+- **Associates of Business**
+    - Lone Star College, graduated August 2011, **GPA: 4.0**
+- **United States Marine Corps**
+    - Sergeant, Honorable Discharge
+- **Eagle Scout**
 
 
 History
@@ -29,10 +32,6 @@ because someone else would be taking it over.
 While working for the [Cloud Computing Research Group][1] I made a web interface to spare image
 processing users from the command line. The backend was a Hadoop Cluster and we visualized the data
 with D3.
-
-I got a degree too.
-
-<pre><meter value="0.9841"></meter> <-- earning bachelors 98.41%</pre>
 
 ### Hewlett Packard Enterprise <small>_Software Development Internship_ **Summer of 2015**</small>
 
@@ -55,7 +54,8 @@ how to use most methods.
 
 ### Lone Star University <small>_Student_ **2010 - 2011**</small>
 
-Graduated _summa cum laude_ and I hope they don't take it away for having to look up what it meant.
+Graduated in May 2011, _summa cum laude_. I hope they don't take it away for having to look up what
+it meant.
 
 ### Sidtek, L.L.C. <small>_Head Computer Repair Technician_ **2003 - 2008**</small>
 
