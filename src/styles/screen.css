@@ -1,0 +1,20 @@
+@media screen {
+    body {
+        color: #3E3E3E;
+        /*font-family: 'LinuxLibertine';*/
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        width: 8.5in;
+        height: 11in;
+        padding: 0.25in;
+    }
+
+    ul {
+        float: left;
+    }
+
+    #history {
+        clear: both;
+    }
+
+}

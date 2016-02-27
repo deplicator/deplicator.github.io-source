@@ -4,9 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>James Pryor - resume</title>
-    <link rel="stylesheet" type="text/css" href="styles/resume.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700"  media="print, screen">
+    <link rel="stylesheet" type="text/css" href="styles/fonts.css" media="print, screen">
+    <link rel="stylesheet" type="text/css" href="styles/screen.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="styles/print.css" media="print">
 </head>
 <body>
+
+    <div class="no-print">
+    I'm aware this kind of sucks at the moment, in the middle of making changes.
+
+    Please hit print preview, it's very different than what you seee here.
+    </div>
 
     <div id="resume">
         {{{contents}}}

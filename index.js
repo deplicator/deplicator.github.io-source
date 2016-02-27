@@ -20,12 +20,7 @@ var setTemplates = function(options) {
     return function(files, metalsmith, done) {
         for(var file in files) {
             if(file.substring(file.lastIndexOf('.')) === '.md' /*&& file.substring(0,6) === 'resume'*/) {
-                console.log(files[file].template);
                 files[file].template = 'index.hbt';
-                //var currentdir = file.substring(0, file.lastIndexOf('/'));
-                //if(currentdir === options[each].path && files[file].template === undefined) {
-                //    files[file].template = options[each].templateName;
-                //}
             }
         }
         done();
